@@ -1,0 +1,23 @@
+{
+  "name": "allison-robbins-wines",
+  "version": "1.0.0",
+  "description": "Allison Robbins Wines and Seminars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antramirez/allison-robbins-wines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antramirez/allison-robbins-wines/issues"
+  },
+  "homepage": "https://github.com/antramirez/allison-robbins-wines#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
