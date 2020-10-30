@@ -1,0 +1,101 @@
+.seminars-faq {
+    padding-left: 0px;
+    position: relative;
+}
+
+.seminars-faq > li {
+    margin-bottom: 30px;
+}
+
+.seminars-call-to-action-container {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+.seminars-call-to-action-container h3 {
+    /* font-size: 30px; */
+    font-family: Quicksand;
+}
+
+.seminars-call-to-action-container h3 a {
+    font-size: 30px;
+    /* font-family: Quicksand; */
+}
+
+.seminar-img {
+    max-width: 100%;
+    opacity: .3;
+    position: absolute;
+    /* bottom:500px; */
+    /* background-color: #050505; */
+}
+
+.seminar-img::before {
+    position: absolute;
+    /* top:0;bottom:0;left:0;right:0; */
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+
+#seminar-img-1 {
+    width: 650px;
+    top: 100px;
+    right: 20px;
+}
+#seminar-img-2 {
+    width: 800px;
+    top: 450px;
+    left: -20px;
+}
+#seminar-img-3 {
+    width: 850px;
+    top: 900px;
+    right: 20px;
+}
+#seminar-img-4 {
+    width: 650px;
+    top: 1400px;
+    left: 0px;
+}
+#seminar-img-5 {
+    width: 700px;
+    /* top: 2400px; */
+    bottom: 800px;
+    right: 20px;
+}
+#seminar-img-6 {
+    width: 800px;
+    /* top: 3000px; */
+    right: 14%;
+
+    bottom: 400px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .seminars-call-to-action-container h3 a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .seminars-call-to-action-container h3 a::after {
+        width: 0;
+    }
+    .seminars-call-to-action-container h3 a {
+        text-decoration: underline;
+    }
+
+}

@@ -1,0 +1,36 @@
+.trade-description-container {
+    /* width: 100vw; */
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wine-list li:nth-child(even) .wine-container {
+    flex-direction: row-reverse;
+}
+
+
+.wine-list li:nth-child(even) div .wine-aside {
+    /* background-color: blue; */
+    left: 0px;
+}
+
+.wine-list li:nth-child(odd) .wine-container .wine-aside {
+    /* background-color: red; */
+    right: 0px;
+}
+
+.wine-list li:nth-child(even) .wine-container .wine-aside h3{
+    writing-mode: vertical-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.wine-list li:nth-child(odd) .wine-container .wine-aside h3{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}

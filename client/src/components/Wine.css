@@ -1,0 +1,119 @@
+.wine-container {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wine-container > div {
+    width: 50%;
+    height: 100%;
+}
+
+/* .wine-img-container {
+    overflow: hidden;
+} */
+
+.wine-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.wine-info-container {
+    position: relative;
+    display: flex;
+    padding: 40px;
+    /* padding-top: 40px;
+    padding-left: 40px; */
+    /* border-bottom: 1px solid white; */
+    height: 100%;
+    overflow: scroll;
+}
+
+.wine-info-container-main h2{
+    margin-bottom: 10px;
+}
+
+.wine-info-container-main h3{
+    margin-top: 25px;
+}
+
+.wine-info-container .small-info {
+    margin-bottom: 15px;
+}
+
+.wine-info-container .small-info:first-of-type {
+    margin-top: 25px;
+}
+
+.wine-info-container .small-info.no-margin-top {
+    margin-top: 0px;
+}
+
+.wine-info-container .small-info:last-of-type {
+    margin-bottom: 40px;
+}
+
+.wine-info-container .small-info h4 {
+    margin-right: 10px;
+}
+
+.wine-info-container .small-info h4, .wine-info-container .small-info p{
+    display: inline;
+}
+
+/* .wine-aside {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.wine-aside::before {
+    content:'';
+    width: 3px;
+    height: 30px;
+    background-color: #fdfdfe;
+    position: absolute;
+    top:-35px;
+}
+.wine-aside::after {
+    content:'';
+    width: 3px;
+    height: 30px;
+    background-color: #fdfdfe;
+    position: absolute;
+    bottom:-35px;
+} */
+
+
+@media screen and (max-height: 840px) {
+    .wine-aside h3{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    .wine-aside h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .wine-aside h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .wine-aside h3{
+        font-size: 14px;
+    }
+}
+@media screen and (max-height: 450px) {
+    .wine-aside h3{
+        font-size: 12px;
+    }
+}
