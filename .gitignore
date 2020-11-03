@@ -9,9 +9,3 @@
 .DS_Store
 .env
 
-# assets
-*.mp4
-*.otf
-*.jpeg
-*.jpg
-*.png
