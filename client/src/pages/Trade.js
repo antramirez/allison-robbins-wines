@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 // import Wine from '../components/Wine';
 import '../components/Wine.css';
 import './Trade.css';
@@ -64,10 +64,25 @@ export default function Trade() {
 
     // ]
 
+    const introText = useRef(null);
+
+    useEffect(() => {
+        if (introText.current) {
+            introText.current.classList.add('no-opacity');
+
+        }
+
+        setTimeout(function() {
+            if (introText.current) {
+                introText.current.classList.add('opaque-transition');
+            }
+        }, 500)
+    })
+
     return (
         <div className="trade-container">
-            <div className="trade-description-container width-1200-container">
-                <h3 className="trade-description">Are you a wine shop or restaurant owner? If so, see our wide range of wines available for sale in California and New York below. Please note our selection of wine is for the trade only and not for sale to the general public.</h3>
+            <div ref={introText} className="trade-description-container width-1200-container">
+                <h3 className="trade-description">Are you a wine shop or restaurant owner? If so, see our range of boutique wines available for sale in California and New York below. Please note our selection of wine is for the trade only and not for sale to the general public.</h3>
             </div>
             <div className="wine-list-container">
                 <ul className="wine-list plain-list">

@@ -30,3 +30,14 @@
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .home-bottom-call-to-action-container h3 a::after {
+      width: 0;
+  }
+  .home-bottom-call-to-action-container h3 a {
+      text-decoration: underline;
+      display: inline;
+  }
+
+}

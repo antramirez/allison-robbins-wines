@@ -27,7 +27,7 @@ export default function Footer() {
                         <span className="bold">tel: </span><a href="tel:310-310-0080" className="underline underline-16">(310) 310-0080</a>
                     </div>
                     <div className="contact-address">
-                        <p>529 palisades drive #105 <br/> pacific palisades, ca 90272</p>
+                        <p>528 palisades drive #105 <br/> pacific palisades, ca 90272</p>
                     </div>
                 </div>
             </div>

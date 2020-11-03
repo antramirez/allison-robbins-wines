@@ -27,14 +27,14 @@ export default function Seminars() {
         {
             question: 'How do custom-designed seminars work?',
             answers: [`You choose what you want to learn–anything you like. For example: Spanish Wines 101, Secret Bargains from 
-            California, an Introduction to Basic Wine Grapes, A Tour of Wines grown in Volcanic Soils from Sicily and the 
+            California, an Introduction to Basic Wine Grapes, A Tour of Wines Grown in Volcanic Soils from Sicily and the 
             Canary Islands – it’s up to you.`]
         },
         {
             question: 'Who chooses the wines and how do we get them?',
             answers: [`Allison chooses them from an array of wine stores in LA, New York or your chosen city, based 
             on a chosen wine budget. The wines can be picked up or delivered to each participant. (If the 	
-            wine store is not legally allowed toship wine to a certain state, Allison will speak to a 
+            wine store is not legally allowed to ship wine to a certain state, Allison will speak to a 
             participant’s local wine store to match what everyone else is tasting.)`]
         },
         {
@@ -68,7 +68,7 @@ export default function Seminars() {
                 'What does wine of place vs wine of man actually mean?',
                 'Why are some wines so expensive?',
                 'How do you navigate a restaurant wine list?',
-                'Do wine glass shapes matter?',
+                'Does the shape of a wine glass matter?',
                 'How does soil affect wine?',
                 'How does weather affect a vintage and why?',
                 'Why are some vintages good and some bad?',
@@ -106,7 +106,7 @@ export default function Seminars() {
             if (seminarList.current) {
                 seminarList.current.classList.add('opaque-transition');
             }
-        }, 1400)
+        }, 500)
         // return () => {
         //     cleanup
         // }
