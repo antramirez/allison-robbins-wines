@@ -24,7 +24,7 @@ header {
 
 .nav-menu-container {
     position: relative;
-    /* bottom: 15px; */
+    bottom: 4px;
 }
 
 .nav-links li {
@@ -37,7 +37,7 @@ header {
 }
 
 .nav-links li a {
-    font-family: Botanica;
+    font-family: 'Quicksand';
     position: relative;
     font-size: 16px;
 }

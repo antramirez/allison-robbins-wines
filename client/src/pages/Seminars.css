@@ -34,7 +34,7 @@
 
 .seminar-img {
     max-width: 100%;
-    opacity: .3;
+    opacity: .5;
     position: absolute;
     z-index: -1;
     /* bottom:500px; */
