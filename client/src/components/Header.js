@@ -91,7 +91,7 @@ export default function Header() {
                         <li><NavLink to="/about" onClick={(e) => handleClick(e)}>About</NavLink></li>
                         <li><NavLink to="/seminars" onClick={(e) => handleClick(e)}>Seminars</NavLink></li>
                         <li><NavLink to="/trade" onClick={(e) => handleClick(e)}>Trade</NavLink></li>
-                        <li><a href="mailto:allison@allisonrobbinswines.net">Contact</a></li>
+                        <li><a href="mailto:allison@allisonrobbinswines.com">Contact</a></li>
                     </ul>
                 </nav>
             </div>

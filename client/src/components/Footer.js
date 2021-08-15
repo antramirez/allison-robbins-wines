@@ -21,7 +21,7 @@ export default function Footer() {
                 </div>
                 <div className="contact-info align-right divider-left footer-padding-left">
                     <div className="contact-email">
-                        <span className="bold">email: </span><a className="allison-email underline underline-16" href="mailto:allison@allisonrobbinswines.net">allison@allisonrobbinswines.net</a>
+                        <span className="bold">email: </span><a className="allison-email underline underline-16" href="mailto:allison@allisonrobbinswines.com">allison@allisonrobbinswines.com</a>
                     </div>
                     <div className="contact-telephone">
                         <span className="bold">tel: </span><a href="tel:310-310-0080" className="underline underline-16">(310) 310-0080</a>

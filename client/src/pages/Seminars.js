@@ -133,7 +133,7 @@ export default function Seminars() {
                 <img className="seminar-img" id="seminar-img-6"  width="800" src={ribolla} alt=""/>
             </div>
             <div className="seminars-call-to-action-container">
-                <h3>To book a seminar, please email <a className="underline" href="mailto:allison@allisonrobbinswines.net">allison@allisonrobbinswines.net</a></h3>
+                <h3>To book a seminar, please email <a className="underline" href="mailto:allison@allisonrobbinswines.com">allison@allisonrobbinswines.com</a></h3>
             </div>
         </div>
         
